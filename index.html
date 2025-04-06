@@ -1,17 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
-</head>
-<body>
-    <h1>test</h1>
-    <h2><textarea name="" id=""></textarea></h2>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, labore perferendis! Ipsam illo et, laudantium temporibus vero voluptatibus voluptatum nobis! Asperiores facilis magni quo consectetur dolor qui, maxime natus, totam maiores nulla quasi expedita praesentium voluptas sapiente omnis ea deserunt exercitationem tempora, incidunt optio. Doloremque velit qui corrupti alias amet voluptate minus neque molestiae! Iusto inventore incidunt error eius excepturi sapiente velit, voluptate culpa corrupti sint dignissimos nihil debitis hic magni vel enim est facilis facere laborum soluta quaerat qui rerum consequuntur repellat. Sequi facilis eaque obcaecati laborum totam quos. Mollitia in sed dolore iure, vero tenetur quaerat totam. Laudantium.
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-container">
+          <div class="logo"><img src="./images/logo.svg" alt="" /></div>
+          <ul class="nav-list">
+            <li class="nav-item">About Us</li>
+            <li class="nav-item">Services</li>
+            <li class="nav-item">Universities & Courses</li>
+            <li class="nav-item">Contacts</li>
+          </ul>
+          <ul class="social-medias">
+            <li class="social-medias-item">
+              <img src="./images/facebook.svg" alt="facebook" />
+            </li>
+            <li class="social-medias-item">
+              <img src="./images/instagram.svg" alt="instagram" />
+            </li>
+            <li class="social-medias-item">
+              <img src="./images/youtube.svg" alt="youtube" />
+            </li>
+            <li class="social-medias-item">
+              <img src="./images/twitter.svg" alt="twitter" />
+            </li>
+          </ul>
+        </div>
+        <div class="banner">
+          <h1 class="title">EasyLearn – We Make Your Dreams Come True!</h1>
+          <p class="description">
+            Study anywhere you want to with our help. Well, except Hogwarts.
+          </p>
+          <div>
+            <button class="banner-button">Request a Quote</button
+            ><a class="banner-phone" href="tel:+12345678900"
+              >+1 (234) 567 89 00</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="about">
+        <div class="container about-wrapper">
+          <div class="about-item card blue">
+            <h2 class="about-title">Our Programs</h2>
+            <p class="about-description">
+              Our company can help to plan your study or internship abroad.
+              Select the university of your dreams, and we’ll take care of
+              everything.
+            </p>
+            <button class="about-learn-more yellow">
+              Learn More
+              <svg
+                width="25"
+                height="25"
+                viewBox="0 0 25 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.8098 13.6501V17.2501L19.6098 12.4501C19.6098 12.4501 17.2098 10.0501 14.8098 7.65015V11.2501H5.20978V13.6501H14.8098Z"
+                  fill="#292929"
+                />
+              </svg>
+            </button>
+          </div>
 
-<h3>dfgndf</h3>
-<h4>dfnfdn</h4>
-sthsgngfngfnfd
-</body>
+          <div class="about-item card yellow">
+            <h2 class="about-title dark">Destinations</h2>
+            <p class="about-description dark">
+              Have you always dreamed of studying in a particular country or
+              want to consider all opportunities? We’re here to advise you.
+            </p>
+            <button class="about-learn-more dark-btn">
+              Learn More
+              <svg
+                width="25"
+                height="25"
+                viewBox="0 0 25 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.8098 13.6501V17.2501L19.6098 12.4501C19.6098 12.4501 17.2098 10.0501 14.8098 7.65015V11.2501H5.20978V13.6501H14.8098Z"
+                  fill="#ffffff"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="about-item image-card"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-top">
+        <div class="footer-left">
+          <img src="./images/logo.svg" alt="EasyLearn logo" />
+          <p>
+            For years, EasyLearn has been helping students to get into their
+            dream universities.
+          </p>
+          <ul class="footer-socials">
+            <li><img src="./images/facebook.svg" alt="facebook" /></li>
+            <li><img src="./images/instagram.svg" alt="instagram" /></li>
+            <li><img src="./images/twitter.svg" alt="twitter" /></li>
+            <li><img src="./images/youtube.svg" alt="youtube" /></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Destinations</a></li>
+              <li><a href="#">Tests</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Help</h4>
+            <ul>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Universities & Courses</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Help & Support</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Visa Help</a></li>
+              <li><a href="#">Scholarship Guidance</a></li>
+              <li><a href="#">Study Abroad</a></li>
+              <li><a href="#">Free Lessons</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Subscribe</h4>
+            <form class="subscribe-form">
+              <input type="email" placeholder="Email*" required />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© Created by</p>
+        <p>All rights Reserved</p>
+      </div>
+    </footer>
+  </body>
 </html>
